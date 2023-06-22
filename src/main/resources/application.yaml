@@ -1,1 +1,8 @@
-
+spring:
+  artemis:
+    embedded:
+      persistent: true
+      data-directory: artemis
+      queues: queue1
+      enabled: true
+    mode: embedded

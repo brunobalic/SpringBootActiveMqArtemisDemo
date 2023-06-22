@@ -1,0 +1,11 @@
+###
+GET localhost:8080/test/send
+
+###
+GET localhost:8080/test/send/10
+
+###
+POST localhost:8080/test/send/1000
+Content-Type: text/plain
+
+2023-06-22T15:50:00.00+02:00
