@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 @RequestMapping("/test")
 public class Controller {
 
-    private JmsSender jmsSender;
+    private final JmsSender jmsSender;
 
     @Autowired
     public Controller(JmsSender jmsSender) {

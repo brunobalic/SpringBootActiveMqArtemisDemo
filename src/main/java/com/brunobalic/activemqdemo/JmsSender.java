@@ -15,7 +15,7 @@ public class JmsSender {
     private static final Logger LOGGER = LoggerFactory.getLogger(JmsSender.class);
     public static final String QUEUE_NAME = "queue1";
 
-    private JmsTemplate jmsTemplate;
+    private final JmsTemplate jmsTemplate;
 
     @Autowired
     public JmsSender(JmsTemplate jmsTemplate) {
